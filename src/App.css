@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+}
+
+.quote-box {
+  background-color: white;
+  padding: 1.5rem 1rem 0.5rem;
+  font-family: "Inter", sans-serif;
+  border-radius: 1rem;
+}
+
+.quote-box img {
+  max-width: 150px;
+}
+
+.quote-text {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.quote-author {
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: right !important;
+  padding-right: 2rem;
+}
