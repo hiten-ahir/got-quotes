@@ -20,6 +20,17 @@ body {
   padding: 1.5rem 1rem 0.5rem;
   font-family: "Inter", sans-serif;
   border-radius: 1rem;
+  width: 60vw;
+}
+
+@media screen and (max-width: 500px) {
+  #root {
+    padding: 0;
+  }
+
+  .quote-box {
+    width: 80vw;
+  }
 }
 
 .quote-box img {
@@ -36,4 +47,18 @@ body {
   font-size: 1rem;
   text-align: right !important;
   padding-right: 2rem;
+}
+
+.refresh-button {
+  cursor: pointer;
+  padding: 5px 15px;
+  border: 1px solid #594137;
+  border-radius: 10px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.refresh-button:hover {
+  color: white;
+  background-color: #594137;
 }

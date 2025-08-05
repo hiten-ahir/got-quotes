@@ -29,7 +29,9 @@ function App() {
         <img src="/favicon.jpeg" alt="Game of Thrones" />
         <p className='quote-text'>{quote?.sentence}</p>
         <p className="quote-author"> — {quote?.character?.name}</p>
+        <button className='refresh-button' onClick={getQuote}>New Quote</button>
       </div>
+
     </>
   )
 }
